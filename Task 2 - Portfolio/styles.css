@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #37c79c;
+    background-image: url(nature1.jpg);
+    color: #fff;
+    text-shadow: 2px 1px black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+/* About Section */
+.about {
+    background-color: #f4f4f4;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #e0e0e0;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #ccc;
+}
